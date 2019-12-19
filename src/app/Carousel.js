@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { getPhoto, searchPhotos } from '../api/endpoints';
 
-import Photo from './Photo';
+import Photo from './carousel/Photo';
 
 const PRIMARY = 'primary';
 const SECONDARY = 'secondary';
